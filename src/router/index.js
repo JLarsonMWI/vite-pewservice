@@ -3,13 +3,14 @@ import Home from '../views/Home.vue';
 import NotFound from '../views/404.vue';
 import Dashboard from '../views/Dashboard.vue';
 import Documentation from '../views/Documentation.vue';
+import Pricing from '../views/Pricing.vue';
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
       path: '/',
-      name: 'Home',
+      name: 'home',
       component: Home,
     },
     {
@@ -22,8 +23,13 @@ const router = createRouter({
     },
     {
       path: '/documentation',
-      name: 'Documentation',
+      name: 'documentation',
       component: Documentation,
+    },
+    {
+      path: '/pricing',
+      name: 'pricing',
+      component: Pricing,
     },
     {
       path: '/404',

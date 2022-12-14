@@ -7,13 +7,16 @@
         <div
           class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-24 lg:px-8">
           <div>
-            <div>
-              <img
-                class="h-11 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=rose&shade=500"
-                alt="Your Company" />
+            <div class="flex items-center justify-start">
+              <div class="flex flex-col items-center justify-center">
+                <Logo class="h-20 w-auto text-rose-500" />
+                <span
+                  class="font-pacifico pt-2 text-3xl font-bold text-rose-500"
+                  >Pew Service</span
+                >
+              </div>
             </div>
-            <div class="mt-20">
+            <div class="mt-12">
               <div>
                 <a href="#" class="inline-flex space-x-4">
                   <span
@@ -179,17 +182,17 @@
                 class="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
                 <img
                   class="absolute inset-0 h-full w-full object-cover"
-                  src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
+                  src="https://images.unsplash.com/photo-1519491050282-cf00c82424b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                   alt="" />
                 <div class="absolute inset-0 bg-rose-500 mix-blend-multiply" />
                 <div
-                  class="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-90" />
+                  class="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-75" />
                 <div class="relative px-8">
-                  <div>
-                    <img
-                      class="h-12"
-                      src="https://tailwindui.com/img/logos/workcation.svg?color=white"
-                      alt="Workcation" />
+                  <div class="flex flex-row items-end">
+                    <Logo class="h-16 text-white" />
+                    <span class="font-pacifico h-full pl-4 text-3xl font-bold"
+                      >Minimum</span
+                    >
                   </div>
                   <blockquote class="mt-8">
                     <div
@@ -447,6 +450,7 @@
 import { defineComponent, h } from 'vue';
 import { ChevronRightIcon, StarIcon } from '@heroicons/vue/20/solid';
 import Banner from '../components/Banner.vue';
+import Logo from '../assets/church.svg?component';
 
 const stats = [
   { label: 'Founded', value: '2021' },
