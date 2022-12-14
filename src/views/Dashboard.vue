@@ -46,10 +46,16 @@
                 </div>
               </TransitionChild>
               <div class="flex flex-shrink-0 items-center px-4">
-                <img
-                  class="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=rose&shade=500"
-                  alt="Your Company" />
+                <div>
+                  <RouterLink
+                    to="/"
+                    class="flex flex-col items-center justify-center">
+                    <Logo class="h-10 w-auto text-rose-500 sm:h-10" alt="" />
+                    <span class="font-pacifico text-xl font-bold text-rose-500"
+                      >Pew Service</span
+                    >
+                  </RouterLink>
+                </div>
               </div>
               <div class="mt-5 h-0 flex-1 overflow-y-auto">
                 <nav class="px-2">
@@ -117,10 +123,14 @@
     <div
       class="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-64 lg:flex-col lg:border-r lg:border-gray-200 lg:bg-gray-100 lg:pt-5 lg:pb-4">
       <div class="flex flex-shrink-0 items-center px-6">
-        <img
-          class="h-8 w-auto"
-          src="https://tailwindui.com/img/logos/mark.svg?color=rose&shade=500"
-          alt="Your Company" />
+        <div>
+          <RouterLink to="/" class="flex flex-col items-center justify-center">
+            <Logo class="h-10 w-auto text-rose-500 sm:h-10" alt="" />
+            <span class="font-pacifico text-xl font-bold text-rose-500"
+              >Pew Service</span
+            >
+          </RouterLink>
+        </div>
       </div>
       <!-- Sidebar component, swap this element with another sidebar if you like -->
       <div class="mt-5 flex h-0 flex-1 flex-col overflow-y-auto pt-1">
@@ -699,6 +709,7 @@ import {
   EllipsisVerticalIcon,
   MagnifyingGlassIcon,
 } from '@heroicons/vue/20/solid';
+import Logo from '../assets/church.svg?component';
 
 const navigation = [
   { name: 'Home', href: '#', icon: HomeIcon, current: true },

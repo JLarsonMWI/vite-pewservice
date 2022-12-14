@@ -7,12 +7,9 @@
       <div
         class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 sm:py-4 md:justify-start md:space-x-10 lg:px-8">
         <div>
-          <RouterLink
-            to="/"
-            class="flex flex-row items-end justify-center md:flex-col md:items-center">
-            <Logo class="h-12 w-auto text-rose-500 sm:h-12" alt="" />
-            <span
-              class="font-pacifico pl-8 text-2xl font-bold text-rose-500 md:pt-2 md:pl-0"
+          <RouterLink to="/" class="flex flex-col items-center justify-center">
+            <Logo class="h-10 w-auto text-rose-500 sm:h-10" alt="" />
+            <span class="font-pacifico text-xl font-bold text-rose-500"
               >Pew Service</span
             >
           </RouterLink>
@@ -158,10 +155,9 @@
               <div>
                 <RouterLink
                   to="/"
-                  class="flex flex-row items-end justify-center md:flex-col md:items-center">
-                  <Logo class="h-12 w-auto text-rose-500 sm:h-12" alt="" />
-                  <span
-                    class="font-pacifico pl-8 text-2xl font-bold text-rose-500 md:pt-2 md:pl-0"
+                  class="flex flex-col items-center justify-center">
+                  <Logo class="h-10 w-auto text-rose-500 sm:h-10" alt="" />
+                  <span class="font-pacifico text-xl font-bold text-rose-500"
                     >Pew Service</span
                   >
                 </RouterLink>
