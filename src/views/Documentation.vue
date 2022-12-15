@@ -1,37 +1,10 @@
 <template>
-  <div class="relative bg-rose-800">
-    <div class="absolute inset-0">
-      <img
-        class="h-full w-full object-cover"
-        src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
-        alt=""
-      />
-      <div
-        class="absolute inset-0 bg-rose-800 mix-blend-multiply"
-        aria-hidden="true"
-      />
-    </div>
-    <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-      <h1
-        class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl"
-      >
-        Get in touch
-      </h1>
-      <p class="mt-6 max-w-3xl text-xl text-rose-100">
-        Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus
-        nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut
-        consectetur. Sit justo viverra non adipisicing elit distinctio.
-      </p>
-    </div>
-  </div>
   <div
     id="lower-section"
-    class="flex h-screen w-full flex-row items-start justify-start overflow-y-hidden"
-  >
-    <div class="h-screen w-1/4">
+    class="flex h-[calc(100vh-100px)] w-full flex-row items-start justify-start overflow-y-hidden">
+    <div class="h-[calc(100vh-100px)] w-1/5">
       <div
-        class="flex h-full flex-grow flex-col overflow-y-auto border-r border-gray-200 bg-white pt-5 pb-4"
-      >
+        class="flex h-full flex-grow flex-col border-r border-gray-200 bg-white pt-5 pb-4">
         <div class="mt-5 flex flex-grow flex-col">
           <nav class="flex-1 space-y-1 bg-white px-2" aria-label="Sidebar">
             <template v-for="item in navigation" :key="item.name">
@@ -43,8 +16,7 @@
                       ? 'bg-gray-100 text-gray-900'
                       : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
                     'group w-full flex items-center pl-2 py-2 text-sm font-medium rounded-md',
-                  ]"
-                >
+                  ]">
                   <component
                     :is="item.icon"
                     :class="[
@@ -53,8 +25,7 @@
                         : 'text-gray-400 group-hover:text-gray-500',
                       'mr-3 flex-shrink-0 h-6 w-6',
                     ]"
-                    aria-hidden="true"
-                  />
+                    aria-hidden="true" />
                   {{ item.name }}
                 </a>
               </div>
@@ -64,14 +35,12 @@
                     item.current
                       ? 'bg-gray-100 text-gray-900'
                       : 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
-                    'group w-full flex items-center pl-2 pr-1 py-2 text-left text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-rose-500',
-                  ]"
-                >
+                    'group w-full flex items-center pl-2 pr-1 py-2 text-left text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500',
+                  ]">
                   <component
                     :is="item.icon"
                     class="mr-3 h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
-                    aria-hidden="true"
-                  />
+                    aria-hidden="true" />
                   <span class="flex-1">{{ item.name }}</span>
                   <svg
                     :class="[
@@ -79,8 +48,7 @@
                       'ml-3 h-5 w-5 flex-shrink-0 transform transition-colors duration-150 ease-in-out group-hover:text-gray-400',
                     ]"
                     viewBox="0 0 20 20"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path d="M6 6L14 10L6 14V6Z" fill="currentColor" />
                   </svg>
                 </DisclosureButton>
@@ -100,22 +68,21 @@
         </div>
       </div>
     </div>
-    <div id="template-section" class="h-screen w-3/4 overflow-y-scroll">
-      <div class="relative overflow-y-scroll bg-white py-16">
+    <div
+      id="template-section"
+      class="h-[calc(100vh-100px)] w-4/5 overflow-y-scroll">
+      <div class="relative bg-white py-16">
         <div
-          class="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]"
-        >
+          class="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]">
           <div
             class="relative mx-auto h-full max-w-prose text-lg"
-            aria-hidden="true"
-          >
+            aria-hidden="true">
             <svg
               class="absolute top-12 left-full translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
-              viewBox="0 0 404 384"
-            >
+              viewBox="0 0 404 384">
               <defs>
                 <pattern
                   id="74b3fd99-0a6f-4271-bef2-e80eeafdf357"
@@ -123,31 +90,27 @@
                   y="0"
                   width="20"
                   height="20"
-                  patternUnits="userSpaceOnUse"
-                >
+                  patternUnits="userSpaceOnUse">
                   <rect
                     x="0"
                     y="0"
                     width="4"
                     height="4"
                     class="text-gray-200"
-                    fill="currentColor"
-                  />
+                    fill="currentColor" />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
-                fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"
-              />
+                fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)" />
             </svg>
             <svg
               class="absolute top-1/2 right-full -translate-y-1/2 -translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
-              viewBox="0 0 404 384"
-            >
+              viewBox="0 0 404 384">
               <defs>
                 <pattern
                   id="f210dbf6-a58d-4871-961e-36d5016a0f49"
@@ -155,31 +118,27 @@
                   y="0"
                   width="20"
                   height="20"
-                  patternUnits="userSpaceOnUse"
-                >
+                  patternUnits="userSpaceOnUse">
                   <rect
                     x="0"
                     y="0"
                     width="4"
                     height="4"
                     class="text-gray-200"
-                    fill="currentColor"
-                  />
+                    fill="currentColor" />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
-                fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
-              />
+                fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
             </svg>
             <svg
               class="absolute bottom-12 left-full translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
-              viewBox="0 0 404 384"
-            >
+              viewBox="0 0 404 384">
               <defs>
                 <pattern
                   id="d3eb07ae-5182-43e6-857d-35c643af9034"
@@ -187,31 +146,28 @@
                   y="0"
                   width="20"
                   height="20"
-                  patternUnits="userSpaceOnUse"
-                >
+                  patternUnits="userSpaceOnUse">
                   <rect
                     x="0"
                     y="0"
                     width="4"
                     height="4"
                     class="text-gray-200"
-                    fill="currentColor"
-                  />
+                    fill="currentColor" />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
-                fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"
-              />
+                fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)" />
             </svg>
           </div>
         </div>
-        <div class="relative h-screen overflow-y-scroll px-4 sm:px-6 lg:px-8">
+        <div class="relative h-[calc(100vh-100px)] px-4 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-prose text-lg">
             <h1>
               <span
-                class="block text-center text-lg font-semibold text-rose-600"
+                class="block text-center text-lg font-semibold text-teal-600"
                 >Introducing</span
               >
               <span
@@ -226,7 +182,8 @@
               scelerisque eget. Eleifend egestas fringilla sapien.
             </p>
           </div>
-          <div class="prose prose-lg prose-rose mx-auto mt-6 text-gray-500">
+          <div
+            class="prose prose-lg prose-teal mx-auto mt-6 pb-12 text-gray-500">
             <p>
               Faucibus commodo massa rhoncus, volutpat.
               <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
@@ -278,8 +235,7 @@
                 src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
                 alt=""
                 width="1310"
-                height="873"
-              />
+                height="873" />
               <figcaption>
                 Sagittis scelerisque nulla cursus in enim consectetur quam.
               </figcaption>
@@ -306,7 +262,7 @@
   </div>
 </template>
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
 import {
   CalendarIcon,
   ChartBarIcon,
@@ -314,63 +270,63 @@ import {
   HomeIcon,
   InboxIcon,
   UsersIcon,
-} from "@heroicons/vue/24/outline";
+} from '@heroicons/vue/24/outline';
 
 const navigation = [
-  { name: "Dashboard", icon: HomeIcon, current: true, href: "#" },
+  { name: 'Dashboard', icon: HomeIcon, current: true, href: '#' },
   {
-    name: "Team",
+    name: 'Team',
     icon: UsersIcon,
     current: false,
     children: [
-      { name: "Overview", href: "#" },
-      { name: "Members", href: "#" },
-      { name: "Calendar", href: "#" },
-      { name: "Settings", href: "#" },
+      { name: 'Overview', href: '#' },
+      { name: 'Members', href: '#' },
+      { name: 'Calendar', href: '#' },
+      { name: 'Settings', href: '#' },
     ],
   },
   {
-    name: "Projects",
+    name: 'Projects',
     icon: FolderIcon,
     current: false,
     children: [
-      { name: "Overview", href: "#" },
-      { name: "Members", href: "#" },
-      { name: "Calendar", href: "#" },
-      { name: "Settings", href: "#" },
+      { name: 'Overview', href: '#' },
+      { name: 'Members', href: '#' },
+      { name: 'Calendar', href: '#' },
+      { name: 'Settings', href: '#' },
     ],
   },
   {
-    name: "Calendar",
+    name: 'Calendar',
     icon: CalendarIcon,
     current: false,
     children: [
-      { name: "Overview", href: "#" },
-      { name: "Members", href: "#" },
-      { name: "Calendar", href: "#" },
-      { name: "Settings", href: "#" },
+      { name: 'Overview', href: '#' },
+      { name: 'Members', href: '#' },
+      { name: 'Calendar', href: '#' },
+      { name: 'Settings', href: '#' },
     ],
   },
   {
-    name: "Documents",
+    name: 'Documents',
     icon: InboxIcon,
     current: false,
     children: [
-      { name: "Overview", href: "#" },
-      { name: "Members", href: "#" },
-      { name: "Calendar", href: "#" },
-      { name: "Settings", href: "#" },
+      { name: 'Overview', href: '#' },
+      { name: 'Members', href: '#' },
+      { name: 'Calendar', href: '#' },
+      { name: 'Settings', href: '#' },
     ],
   },
   {
-    name: "Reports",
+    name: 'Reports',
     icon: ChartBarIcon,
     current: false,
     children: [
-      { name: "Overview", href: "#" },
-      { name: "Members", href: "#" },
-      { name: "Calendar", href: "#" },
-      { name: "Settings", href: "#" },
+      { name: 'Overview', href: '#' },
+      { name: 'Members', href: '#' },
+      { name: 'Calendar', href: '#' },
+      { name: 'Settings', href: '#' },
     ],
   },
 ];

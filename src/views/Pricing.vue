@@ -3,7 +3,7 @@
     <main>
       <!-- Pricing section -->
       <div>
-        <div class="relative bg-rose-600">
+        <div class="relative bg-teal-600">
           <!-- Overlapping background -->
           <div
             aria-hidden="true"
@@ -16,7 +16,7 @@
               <span class="block lg:inline">Simple pricing,</span>
               <span class="block lg:inline">no commitment.</span>
             </h1>
-            <p class="mt-4 text-xl text-rose-100">
+            <p class="mt-4 text-xl text-teal-100">
               Everything you need, nothing you don't. Pick a plan that best
               suits your business.
             </p>
@@ -26,15 +26,15 @@
 
           <!-- Toggle -->
           <div class="relative mt-12 flex justify-center sm:mt-16">
-            <div class="flex rounded-lg bg-rose-700 p-0.5">
+            <div class="flex rounded-lg bg-teal-700 p-0.5">
               <button
                 type="button"
-                class="relative whitespace-nowrap rounded-md border-rose-700 bg-white py-2 px-6 text-sm font-medium text-rose-700 shadow-sm hover:bg-rose-50 focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-700">
+                class="relative whitespace-nowrap rounded-md border-teal-700 bg-white py-2 px-6 text-sm font-medium text-teal-700 shadow-sm hover:bg-teal-50 focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-teal-700">
                 Monthly billing
               </button>
               <button
                 type="button"
-                class="relative ml-0.5 whitespace-nowrap rounded-md border border-transparent py-2 px-6 text-sm font-medium text-rose-200 hover:bg-rose-800 focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-700">
+                class="relative ml-0.5 whitespace-nowrap rounded-md border border-transparent py-2 px-6 text-sm font-medium text-teal-200 hover:bg-teal-800 focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-teal-700">
                 Yearly billing
               </button>
             </div>
@@ -46,7 +46,7 @@
             <!-- Decorative background -->
             <div
               aria-hidden="true"
-              class="absolute inset-0 inset-x-8 top-4 bottom-6 hidden rounded-t-lg bg-rose-700 lg:block" />
+              class="absolute inset-0 inset-x-8 top-4 bottom-6 hidden rounded-t-lg bg-teal-700 lg:block" />
 
             <div class="relative space-y-6 lg:grid lg:grid-cols-3 lg:space-y-0">
               <div
@@ -54,14 +54,14 @@
                 :key="plan.title"
                 :class="[
                   plan.featured
-                    ? 'bg-white ring-2 ring-rose-700 shadow-md'
-                    : 'bg-rose-700 lg:bg-transparent',
+                    ? 'bg-white ring-2 ring-teal-700 shadow-md'
+                    : 'bg-teal-700 lg:bg-transparent',
                   'pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12',
                 ]">
                 <div>
                   <h3
                     :class="[
-                      plan.featured ? 'text-rose-600' : 'text-white',
+                      plan.featured ? 'text-teal-600' : 'text-white',
                       'text-base font-semibold',
                     ]">
                     {{ plan.title }}
@@ -71,7 +71,7 @@
                     <div class="mt-3 flex items-center">
                       <p
                         :class="[
-                          plan.featured ? 'text-rose-600' : 'text-white',
+                          plan.featured ? 'text-teal-600' : 'text-white',
                           'text-4xl font-bold tracking-tight',
                         ]">
                         ${{ plan.priceMonthly }}
@@ -86,7 +86,7 @@
                         </p>
                         <p
                           :class="[
-                            plan.featured ? 'text-gray-500' : 'text-rose-200',
+                            plan.featured ? 'text-gray-500' : 'text-teal-200',
                             'text-sm',
                           ]">
                           Billed yearly (${{ plan.priceYearly }})
@@ -97,8 +97,8 @@
                       href="#"
                       :class="[
                         plan.featured
-                          ? 'bg-rose-600 text-white hover:bg-rose-700'
-                          : 'bg-white text-rose-600 hover:bg-rose-50',
+                          ? 'bg-teal-600 text-white hover:bg-teal-700'
+                          : 'bg-white text-teal-600 hover:bg-teal-50',
                         'mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full',
                       ]"
                       >Buy {{ plan.title }}</a
@@ -111,7 +111,7 @@
                   :class="[
                     plan.featured
                       ? 'border-gray-200 divide-gray-200'
-                      : 'border-rose-500 divide-rose-500 divide-opacity-75',
+                      : 'border-teal-500 divide-teal-500 divide-opacity-75',
                     'mt-7 border-t divide-y lg:border-t-0',
                   ]">
                   <li
@@ -120,7 +120,7 @@
                     class="flex items-center py-3">
                     <CheckIcon
                       :class="[
-                        plan.featured ? 'text-rose-500' : 'text-rose-200',
+                        plan.featured ? 'text-teal-500' : 'text-teal-200',
                         'w-5 h-5 flex-shrink-0',
                       ]"
                       aria-hidden="true" />
@@ -151,12 +151,12 @@
               class="border-t border-gray-200">
               <div
                 :class="[
-                  plan.featured ? 'border-rose-600' : 'border-transparent',
+                  plan.featured ? 'border-teal-600' : 'border-transparent',
                   '-mt-px pt-6 border-t-2 sm:w-1/2',
                 ]">
                 <h3
                   :class="[
-                    plan.featured ? 'text-rose-600' : 'text-gray-900',
+                    plan.featured ? 'text-teal-600' : 'text-gray-900',
                     'text-sm font-bold',
                   ]">
                   {{ plan.title }}
@@ -182,7 +182,7 @@
                 <div
                   :class="[
                     plan.featured
-                      ? 'ring-2 ring-rose-600 shadow-md'
+                      ? 'ring-2 ring-teal-600 shadow-md'
                       : 'ring-1 ring-black ring-opacity-5 shadow',
                     'relative py-3 px-4 bg-white rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none',
                   ]">
@@ -202,7 +202,7 @@
                           "
                           :class="[
                             feature.tiers[planIndex].featured
-                              ? 'text-rose-600'
+                              ? 'text-teal-600'
                               : 'text-gray-900',
                             'text-sm font-medium',
                           ]"
@@ -211,7 +211,7 @@
                         <template v-else>
                           <CheckIcon
                             v-if="feature.tiers[planIndex].value === true"
-                            class="mx-auto h-5 w-5 text-rose-600"
+                            class="mx-auto h-5 w-5 text-teal-600"
                             aria-hidden="true" />
                           <XMarkIcon
                             v-else
@@ -235,7 +235,7 @@
                   <div
                     :class="[
                       plan.featured
-                        ? 'ring-2 ring-rose-600'
+                        ? 'ring-2 ring-teal-600'
                         : 'ring-1 ring-black ring-opacity-5',
                       'absolute right-0 w-1/2 h-full rounded-lg',
                     ]" />
@@ -259,7 +259,7 @@
                 <div
                   :class="[
                     plan.featured
-                      ? 'ring-2 ring-rose-600 shadow-md'
+                      ? 'ring-2 ring-teal-600 shadow-md'
                       : 'ring-1 ring-black ring-opacity-5 shadow',
                     'relative py-3 px-4 bg-white rounded-lg sm:p-0 sm:bg-transparent sm:rounded-none sm:ring-0 sm:shadow-none',
                   ]">
@@ -274,7 +274,7 @@
                       <dd class="text-center sm:px-4">
                         <CheckIcon
                           v-if="perk.tiers[planIndex].value === true"
-                          class="mx-auto h-5 w-5 text-rose-600"
+                          class="mx-auto h-5 w-5 text-teal-600"
                           aria-hidden="true" />
                         <XMarkIcon
                           v-else
@@ -295,7 +295,7 @@
                   <div
                     :class="[
                       plan.featured
-                        ? 'ring-2 ring-rose-600'
+                        ? 'ring-2 ring-teal-600'
                         : 'ring-1 ring-black ring-opacity-5',
                       'absolute right-0 w-1/2 h-full rounded-lg',
                     ]" />
@@ -325,12 +325,12 @@
                 ]">
                 <div
                   :class="[
-                    plan.featured ? 'border-rose-600' : 'border-transparent',
+                    plan.featured ? 'border-teal-600' : 'border-transparent',
                     'py-6 border-t-2',
                   ]">
                   <p
                     :class="[
-                      plan.featured ? 'text-rose-600' : 'text-gray-900',
+                      plan.featured ? 'text-teal-600' : 'text-gray-900',
                       'text-sm font-bold',
                     ]">
                     {{ plan.title }}
@@ -393,7 +393,7 @@
                         <span
                           v-if="typeof tier.value === 'string'"
                           :class="[
-                            tier.featured ? 'text-rose-600' : 'text-gray-900',
+                            tier.featured ? 'text-teal-600' : 'text-gray-900',
                             'text-sm font-medium',
                           ]"
                           >{{ tier.value }}</span
@@ -401,7 +401,7 @@
                         <template v-else>
                           <CheckIcon
                             v-if="tier.value === true"
-                            class="mx-auto h-5 w-5 text-rose-600"
+                            class="mx-auto h-5 w-5 text-teal-600"
                             aria-hidden="true" />
                           <XMarkIcon
                             v-else
@@ -428,7 +428,7 @@
                 </div>
                 <div class="w-1/4 px-4">
                   <div
-                    class="h-full w-full rounded-lg ring-2 ring-rose-600 ring-opacity-100" />
+                    class="h-full w-full rounded-lg ring-2 ring-teal-600 ring-opacity-100" />
                 </div>
                 <div class="w-1/4 pl-4">
                   <div
@@ -487,7 +487,7 @@
                       <span class="relative h-full w-full py-3">
                         <CheckIcon
                           v-if="tier.value === true"
-                          class="mx-auto h-5 w-5 text-rose-600"
+                          class="mx-auto h-5 w-5 text-teal-600"
                           aria-hidden="true" />
                         <XMarkIcon
                           v-else
@@ -513,7 +513,7 @@
                 </div>
                 <div class="w-1/4 px-4">
                   <div
-                    class="h-full w-full rounded-lg ring-2 ring-rose-600 ring-opacity-100" />
+                    class="h-full w-full rounded-lg ring-2 ring-teal-600 ring-opacity-100" />
                 </div>
                 <div class="w-1/4 pl-4">
                   <div

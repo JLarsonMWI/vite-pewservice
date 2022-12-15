@@ -50,8 +50,8 @@
                   <RouterLink
                     to="/"
                     class="flex flex-col items-center justify-center">
-                    <Logo class="h-10 w-auto text-rose-500 sm:h-10" alt="" />
-                    <span class="font-pacifico text-xl font-bold text-rose-500"
+                    <Logo class="h-10 w-auto text-teal-500 sm:h-10" alt="" />
+                    <span class="font-pacifico text-xl font-bold text-teal-500"
                       >Pew Service</span
                     >
                   </RouterLink>
@@ -125,8 +125,8 @@
       <div class="flex flex-shrink-0 items-center px-6">
         <div>
           <RouterLink to="/" class="flex flex-col items-center justify-center">
-            <Logo class="h-10 w-auto text-rose-500 sm:h-10" alt="" />
-            <span class="font-pacifico text-xl font-bold text-rose-500"
+            <Logo class="h-10 w-auto text-teal-500 sm:h-10" alt="" />
+            <span class="font-pacifico text-xl font-bold text-teal-500"
               >Pew Service</span
             >
           </RouterLink>
@@ -138,20 +138,20 @@
         <Menu as="div" class="relative inline-block px-3 text-left">
           <div>
             <MenuButton
-              class="group w-full rounded-md bg-gray-100 px-3.5 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+              class="group w-full rounded-md bg-gray-100 px-3.5 py-2 text-left text-sm font-medium text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 focus:ring-offset-gray-100">
               <span class="flex w-full items-center justify-between">
                 <span
                   class="flex min-w-0 items-center justify-between space-x-3">
                   <img
                     class="h-10 w-10 flex-shrink-0 rounded-full bg-gray-300"
-                    src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80"
+                    src="https://images.unsplash.com/photo-1535119782-71efca81996b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=256&h=256&q=10"
                     alt="" />
                   <span class="flex min-w-0 flex-1 flex-col">
                     <span class="truncate text-sm font-medium text-gray-900"
-                      >Jessy Schwarz</span
+                      >Rev. Bob Jackson</span
                     >
                     <span class="truncate text-sm text-gray-500"
-                      >@jessyschwarz</span
+                      >@revbobjackson</span
                     >
                   </span>
                 </span>
@@ -178,7 +178,7 @@
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                       'block px-4 py-2 text-sm',
                     ]"
-                    >View profile</a
+                    >View Profile</a
                   >
                 </MenuItem>
                 <MenuItem v-slot="{ active }">
@@ -188,7 +188,7 @@
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                       'block px-4 py-2 text-sm',
                     ]"
-                    >Settings</a
+                    >Account Settings</a
                   >
                 </MenuItem>
                 <MenuItem v-slot="{ active }">
@@ -203,16 +203,6 @@
                 </MenuItem>
               </div>
               <div class="py-1">
-                <MenuItem v-slot="{ active }">
-                  <a
-                    href="#"
-                    :class="[
-                      active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                      'block px-4 py-2 text-sm',
-                    ]"
-                    >Get desktop app</a
-                  >
-                </MenuItem>
                 <MenuItem v-slot="{ active }">
                   <a
                     href="#"
@@ -254,7 +244,7 @@
               type="text"
               name="search"
               id="search"
-              class="block w-full rounded-md border-gray-300 pl-9 focus:border-rose-500 focus:ring-rose-500 sm:text-sm"
+              class="block w-full rounded-md border-gray-300 pl-9 focus:border-teal-500 focus:ring-teal-500 sm:text-sm"
               placeholder="Search" />
           </div>
         </div>
@@ -317,7 +307,7 @@
         class="sticky top-0 z-10 flex h-16 flex-shrink-0 border-b border-gray-200 bg-white lg:hidden">
         <button
           type="button"
-          class="border-r border-gray-200 px-4 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500 lg:hidden"
+          class="border-r border-gray-200 px-4 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500 lg:hidden"
           @click="sidebarOpen = true">
           <span class="sr-only">Open sidebar</span>
           <Bars3CenterLeftIcon class="h-6 w-6" aria-hidden="true" />
@@ -346,11 +336,11 @@
             <Menu as="div" class="relative ml-3">
               <div>
                 <MenuButton
-                  class="flex max-w-xs items-center rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                  class="flex max-w-xs items-center rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2">
                   <span class="sr-only">Open user menu</span>
                   <img
                     class="h-8 w-8 rounded-full"
-                    src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="https://images.unsplash.com/photo-1535119782-71efca81996b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=256&h=256&q=10"
                     alt="" />
                 </MenuButton>
               </div>
@@ -373,7 +363,7 @@
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >View profile</a
+                        >View Profile</a
                       >
                     </MenuItem>
                     <MenuItem v-slot="{ active }">
@@ -385,7 +375,7 @@
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >Settings</a
+                        >Account Settings</a
                       >
                     </MenuItem>
                     <MenuItem v-slot="{ active }">
@@ -402,18 +392,6 @@
                     </MenuItem>
                   </div>
                   <div class="py-1">
-                    <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
-                        :class="[
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm',
-                        ]"
-                        >Get desktop app</a
-                      >
-                    </MenuItem>
                     <MenuItem v-slot="{ active }">
                       <a
                         href="#"
@@ -449,42 +427,30 @@
       </div>
       <main class="flex-1">
         <!-- Page title & actions -->
-        <div
+        <!-- <div
           class="border-b border-gray-200 p-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8">
           <div class="min-w-0 flex-1">
             <h1 class="text-lg font-medium leading-6 text-gray-900 sm:truncate">
               Home
             </h1>
           </div>
-          <div class="mt-4 flex sm:mt-0 sm:ml-4">
-            <button
-              type="button"
-              class="sm:order-0 order-1 ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:ml-0">
-              Share
-            </button>
-            <button
-              type="button"
-              class="order-0 inline-flex items-center rounded-md border border-transparent bg-rose-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:order-1 sm:ml-3">
-              Create
-            </button>
-          </div>
-        </div>
-        <!-- Pinned projects -->
+        </div> -->
+        <!-- Pinned Activities -->
         <div class="mt-6 px-4 sm:px-6 lg:px-8">
-          <h2 class="text-sm font-medium text-gray-900">Pinned Projects</h2>
+          <h2 class="text-sm font-medium text-gray-900">Pinned Activities</h2>
           <ul
             role="list"
             class="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 xl:grid-cols-4">
             <li
-              v-for="project in pinnedProjects"
-              :key="project.id"
+              v-for="activity in pinnedActivities"
+              :key="activity.id"
               class="relative col-span-1 flex rounded-md shadow-sm">
               <div
                 :class="[
-                  project.bgColorClass,
+                  activity.bgColorClass,
                   'flex-shrink-0 flex items-center justify-center w-16 text-white text-sm font-medium rounded-l-md',
                 ]">
-                {{ project.initials }}
+                {{ activity.initials }}
               </div>
               <div
                 class="flex flex-1 items-center justify-between truncate rounded-r-md border-y border-r border-gray-200 bg-white">
@@ -492,15 +458,15 @@
                   <a
                     href="#"
                     class="font-medium text-gray-900 hover:text-gray-600"
-                    >{{ project.title }}</a
+                    >{{ activity.title }}</a
                   >
                   <p class="text-gray-500">
-                    {{ project.totalMembers }} Members
+                    {{ activity.totalMembers }} Members
                   </p>
                 </div>
                 <Menu as="div" class="flex-shrink-0 pr-2">
                   <MenuButton
-                    class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2">
+                    class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2">
                     <span class="sr-only">Open options</span>
                     <EllipsisVerticalIcon class="h-5 w-5" aria-hidden="true" />
                   </MenuButton>
@@ -537,7 +503,7 @@
                                 : 'text-gray-700',
                               'block px-4 py-2 text-sm',
                             ]"
-                            >Removed from pinned</a
+                            >Remove from pinned</a
                           >
                         </MenuItem>
                         <MenuItem v-slot="{ active }">
@@ -561,30 +527,31 @@
           </ul>
         </div>
 
-        <!-- Projects list (only on smallest breakpoint) -->
+        <!-- Activities list (only on smallest breakpoint) -->
         <div class="mt-10 sm:hidden">
           <div class="px-4 sm:px-6">
-            <h2 class="text-sm font-medium text-gray-900">Projects</h2>
+            <h2 class="text-sm font-medium text-gray-900">Activities</h2>
           </div>
           <ul
             role="list"
             class="mt-3 divide-y divide-gray-100 border-t border-gray-200">
-            <li v-for="project in projects" :key="project.id">
+            <li v-for="activity in activities" :key="activity.id">
               <a
                 href="#"
                 class="group flex items-center justify-between p-4 hover:bg-gray-50 sm:px-6">
                 <span class="flex items-center space-x-3 truncate">
                   <span
                     :class="[
-                      project.bgColorClass,
+                      activity.bgColorClass,
                       'w-2.5 h-2.5 flex-shrink-0 rounded-full',
                     ]"
                     aria-hidden="true" />
-                  <span class="truncate text-sm font-medium leading-6">
-                    {{ project.title }}
+                  <span
+                    class="truncate text-sm font-medium leading-6 text-gray-900">
+                    {{ activity.title }}
                     {{ ' ' }}
                     <span class="truncate font-normal text-gray-500"
-                      >in {{ project.team }}</span
+                      >in {{ activity.team }}</span
                     >
                   </span>
                 </span>
@@ -596,7 +563,7 @@
           </ul>
         </div>
 
-        <!-- Projects table (small breakpoint and up) -->
+        <!-- Activities table (small breakpoint and up) -->
         <div class="mt-8 hidden sm:block">
           <div
             class="inline-block min-w-full border-b border-gray-200 align-middle">
@@ -606,7 +573,7 @@
                   <th
                     class="border-b border-gray-200 bg-gray-50 px-6 py-3 text-left text-sm font-semibold text-gray-900"
                     scope="col">
-                    <span class="lg:pl-2">Project</span>
+                    <span class="lg:pl-2">Activity</span>
                   </th>
                   <th
                     class="border-b border-gray-200 bg-gray-50 px-6 py-3 text-left text-sm font-semibold text-gray-900"
@@ -616,7 +583,12 @@
                   <th
                     class="hidden border-b border-gray-200 bg-gray-50 px-6 py-3 text-right text-sm font-semibold text-gray-900 md:table-cell"
                     scope="col">
-                    Last updated
+                    Activity Date
+                  </th>
+                  <th
+                    class="hidden border-b border-gray-200 bg-gray-50 px-6 py-3 text-right text-sm font-semibold text-gray-900 md:table-cell"
+                    scope="col">
+                    Last Updated
                   </th>
                   <th
                     class="border-b border-gray-200 bg-gray-50 py-3 pr-6 text-right text-sm font-semibold text-gray-900"
@@ -624,22 +596,24 @@
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-100 bg-white">
-                <tr v-for="project in projects" :key="project.id">
+                <tr v-for="activity in activities" :key="activity.id">
                   <td
-                    class="w-full max-w-0 whitespace-nowrap px-6 py-3 text-sm font-medium text-gray-900">
+                    class="w-full max-w-0 whitespace-nowrap px-6 py-3 text-sm font-medium">
                     <div class="flex items-center space-x-3 lg:pl-2">
                       <div
                         :class="[
-                          project.bgColorClass,
+                          activity.bgColorClass,
                           'flex-shrink-0 w-2.5 h-2.5 rounded-full',
                         ]"
                         aria-hidden="true" />
-                      <a href="#" class="truncate hover:text-gray-600">
+                      <a
+                        href="#"
+                        class="truncate text-gray-900 hover:text-gray-600">
                         <span>
-                          {{ project.title }}
+                          {{ activity.title }}
                           {{ ' ' }}
                           <span class="font-normal text-gray-500"
-                            >in {{ project.team }}</span
+                            >in {{ activity.team }}</span
                           >
                         </span>
                       </a>
@@ -649,29 +623,33 @@
                     <div class="flex items-center space-x-2">
                       <div class="flex flex-shrink-0 -space-x-1">
                         <img
-                          v-for="member in project.members"
+                          v-for="member in activity.members"
                           :key="member.handle"
                           class="h-6 w-6 max-w-none rounded-full ring-2 ring-white"
                           :src="member.imageUrl"
                           :alt="member.name" />
                       </div>
                       <span
-                        v-if="project.totalMembers > project.members.length"
+                        v-if="activity.totalMembers > activity.members.length"
                         class="flex-shrink-0 text-xs font-medium leading-5"
                         >+{{
-                          project.totalMembers - project.members.length
+                          activity.totalMembers - activity.members.length
                         }}</span
                       >
                     </div>
                   </td>
                   <td
                     class="hidden whitespace-nowrap px-6 py-3 text-right text-sm text-gray-500 md:table-cell">
-                    {{ project.lastUpdated }}
+                    {{ activity.activityDate }}
+                  </td>
+                  <td
+                    class="hidden whitespace-nowrap px-6 py-3 text-right text-sm text-gray-500 md:table-cell">
+                    {{ activity.lastUpdated }}
                   </td>
                   <td
                     class="whitespace-nowrap px-6 py-3 text-right text-sm font-medium">
-                    <a href="#" class="text-rose-600 hover:text-rose-900"
-                      >Edit</a
+                    <a href="#" class="text-teal-600 hover:text-teal-900"
+                      >Manage</a
                     >
                   </td>
                 </tr>
@@ -698,8 +676,11 @@ import {
 } from '@headlessui/vue';
 import {
   Bars3CenterLeftIcon,
-  Bars4Icon,
-  ClockIcon,
+  CalendarDaysIcon,
+  UserIcon,
+  UserGroupIcon,
+  CakeIcon,
+  Cog8ToothIcon,
   HomeIcon,
   XMarkIcon,
 } from '@heroicons/vue/24/outline';
@@ -713,20 +694,26 @@ import Logo from '../assets/church.svg?component';
 
 const navigation = [
   { name: 'Home', href: '#', icon: HomeIcon, current: true },
-  { name: 'My tasks', href: '#', icon: Bars4Icon, current: false },
-  { name: 'Recent', href: '#', icon: ClockIcon, current: false },
+  { name: 'Congregation', href: '#', icon: UserGroupIcon, current: false },
+  { name: 'Member Information', href: '#', icon: UserIcon, current: false },
+  { name: 'Activities', href: '#', icon: CakeIcon, current: false },
+  { name: 'Calendar', href: '#', icon: CalendarDaysIcon, current: false },
+  { name: 'Settings', href: '#', icon: Cog8ToothIcon, current: false },
 ];
 const teams = [
-  { name: 'Engineering', href: '#', bgColorClass: 'bg-rose-500' },
-  { name: 'Human Resources', href: '#', bgColorClass: 'bg-green-500' },
-  { name: 'Customer Success', href: '#', bgColorClass: 'bg-yellow-500' },
+  { name: 'Youth', href: '#', bgColorClass: 'bg-yellow-400' },
+  { name: 'Men', href: '#', bgColorClass: 'bg-green-500' },
+  { name: 'Girls', href: '#', bgColorClass: 'bg-pink-500' },
+  { name: 'Boys', href: '#', bgColorClass: 'bg-blue-600' },
+  { name: 'Seniors', href: '#', bgColorClass: 'bg-orange-600' },
+  { name: 'Congregation', href: '#', bgColorClass: 'bg-red-500' },
 ];
-const projects = [
+const activities = [
   {
     id: 1,
-    title: 'GraphQL API',
-    initials: 'GA',
-    team: 'Engineering',
+    title: 'Youth Spring Trip',
+    initials: 'YT',
+    team: 'Youth',
     members: [
       {
         name: 'Dries Vincent',
@@ -753,14 +740,200 @@ const projects = [
           'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     ],
-    totalMembers: 12,
-    lastUpdated: 'March 17, 2020',
+    totalMembers: 18,
+    activityDate: 'March 21, 2023',
+    lastUpdated: 'November 20, 2022',
     pinned: true,
-    bgColorClass: 'bg-pink-600',
+    bgColorClass: 'bg-yellow-400',
   },
-  // More projects...
+  {
+    id: 2,
+    title: 'Senior Retreat',
+    initials: 'SR',
+    team: 'Seniors',
+    members: [
+      {
+        name: 'Dries Vincent',
+        handle: 'driesvincent',
+        imageUrl:
+          'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Lindsay Walton',
+        handle: 'lindsaywalton',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Courtney Henry',
+        handle: 'courtneyhenry',
+        imageUrl:
+          'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Tom Cook',
+        handle: 'tomcook',
+        imageUrl:
+          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    ],
+    totalMembers: 15,
+    activityDate: 'February 13, 2023',
+    lastUpdated: 'December 10, 2022',
+    pinned: true,
+    bgColorClass: 'bg-orange-600',
+  },
+  {
+    id: 3,
+    title: 'Easter Fellowship',
+    initials: 'EF',
+    team: 'Congregation',
+    members: [
+      {
+        name: 'Dries Vincent',
+        handle: 'driesvincent',
+        imageUrl:
+          'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Lindsay Walton',
+        handle: 'lindsaywalton',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Courtney Henry',
+        handle: 'courtneyhenry',
+        imageUrl:
+          'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Tom Cook',
+        handle: 'tomcook',
+        imageUrl:
+          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    ],
+    totalMembers: 250,
+    activityDate: 'April 9, 2023',
+    lastUpdated: 'December 12, 2022',
+    pinned: false,
+    bgColorClass: 'bg-red-500',
+  },
+  {
+    id: 4,
+    title: 'Brotherhood Breakfast',
+    initials: 'BB',
+    team: 'Men',
+    members: [
+      {
+        name: 'Dries Vincent',
+        handle: 'driesvincent',
+        imageUrl:
+          'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Lindsay Walton',
+        handle: 'lindsaywalton',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Courtney Henry',
+        handle: 'courtneyhenry',
+        imageUrl:
+          'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Tom Cook',
+        handle: 'tomcook',
+        imageUrl:
+          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    ],
+    totalMembers: 50,
+    activityDate: 'January 3, 2023',
+    lastUpdated: 'December 5, 2022',
+    pinned: false,
+    bgColorClass: 'bg-green-500',
+  },
+  {
+    id: 5,
+    title: 'Summer Camp',
+    initials: 'SC',
+    team: 'Youth',
+    members: [
+      {
+        name: 'Dries Vincent',
+        handle: 'driesvincent',
+        imageUrl:
+          'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Lindsay Walton',
+        handle: 'lindsaywalton',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Courtney Henry',
+        handle: 'courtneyhenry',
+        imageUrl:
+          'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Tom Cook',
+        handle: 'tomcook',
+        imageUrl:
+          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    ],
+    totalMembers: 21,
+    activityDate: 'June 20, 2023',
+    lastUpdated: 'December 10, 2022',
+    pinned: true,
+    bgColorClass: 'bg-yellow-400',
+  },
+  {
+    id: 6,
+    title: 'GA Camping Trip',
+    initials: 'GA',
+    team: 'Girls in Action',
+    members: [
+      {
+        name: 'Dries Vincent',
+        handle: 'driesvincent',
+        imageUrl:
+          'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Lindsay Walton',
+        handle: 'lindsaywalton',
+        imageUrl:
+          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Courtney Henry',
+        handle: 'courtneyhenry',
+        imageUrl:
+          'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+      {
+        name: 'Tom Cook',
+        handle: 'tomcook',
+        imageUrl:
+          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    ],
+    totalMembers: 9,
+    activityDate: 'May 15, 2023',
+    lastUpdated: 'November 17, 2022',
+    pinned: true,
+    bgColorClass: 'bg-pink-500',
+  },
+  // More Activities...
 ];
-const pinnedProjects = projects.filter((project) => project.pinned);
+const pinnedActivities = activities.filter((activity) => activity.pinned);
 
 const sidebarOpen = ref(false);
 </script>

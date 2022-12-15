@@ -8,15 +8,15 @@
         class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 sm:py-4 md:justify-start md:space-x-10 lg:px-8">
         <div>
           <RouterLink to="/" class="flex flex-col items-center justify-center">
-            <Logo class="h-10 w-auto text-rose-500 sm:h-10" alt="" />
-            <span class="font-pacifico text-xl font-bold text-rose-500"
+            <Logo class="h-10 w-auto text-teal-500 sm:h-10" alt="" />
+            <span class="font-pacifico text-xl font-bold text-teal-500"
               >Pew Service</span
             >
           </RouterLink>
         </div>
         <div class="-my-2 -mr-2 md:hidden">
           <PopoverButton
-            class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500">
+            class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
             <span class="sr-only">Open menu</span>
             <Bars3Icon class="h-6 w-6" aria-hidden="true" />
           </PopoverButton>
@@ -28,7 +28,7 @@
               <PopoverButton
                 :class="[
                   open ? 'text-gray-900' : 'text-gray-500',
-                  'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2',
+                  'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2',
                 ]">
                 <span>Solutions</span>
                 <ChevronDownIcon
@@ -58,7 +58,7 @@
                       <div class="flex md:h-full lg:flex-col">
                         <div class="flex-shrink-0">
                           <span
-                            class="inline-flex h-10 w-10 items-center justify-center rounded-md bg-rose-500 text-white sm:h-12 sm:w-12">
+                            class="inline-flex h-10 w-10 items-center justify-center rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                             <component
                               :is="item.icon"
                               class="h-6 w-6"
@@ -76,7 +76,7 @@
                             </p>
                           </div>
                           <p
-                            class="mt-2 text-sm font-medium text-rose-600 lg:mt-4">
+                            class="mt-2 text-sm font-medium text-teal-600 lg:mt-4">
                             Learn more
                             <span aria-hidden="true"> &rarr;</span>
                           </p>
@@ -124,13 +124,13 @@
           </PopoverGroup>
           <div class="flex items-center md:ml-12">
             <a
-              href="#"
+              href="/dashboard"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
               >Sign in</a
             >
             <a
-              href="#"
-              class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-rose-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-rose-700"
+              href="/dashboard"
+              class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-teal-500 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-600"
               >Sign up</a
             >
           </div>
@@ -156,15 +156,15 @@
                 <RouterLink
                   to="/"
                   class="flex flex-col items-center justify-center">
-                  <Logo class="h-10 w-auto text-rose-500 sm:h-10" alt="" />
-                  <span class="font-pacifico text-xl font-bold text-rose-500"
+                  <Logo class="h-10 w-auto text-teal-500 sm:h-10" alt="" />
+                  <span class="font-pacifico text-xl font-bold text-teal-500"
                     >Pew Service</span
                   >
                 </RouterLink>
               </div>
               <div class="-mr-2">
                 <PopoverButton
-                  class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-rose-500">
+                  class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
                   <span class="sr-only">Close menu</span>
                   <XMarkIcon class="h-6 w-6" aria-hidden="true" />
                 </PopoverButton>
@@ -179,7 +179,7 @@
                     :href="item.href"
                     class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
                     <div
-                      class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-rose-500 text-white sm:h-12 sm:w-12">
+                      class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                       <component
                         :is="item.icon"
                         class="h-6 w-6"
@@ -193,7 +193,7 @@
                 <div class="mt-8 text-base">
                   <a
                     href="#"
-                    class="font-medium text-rose-600 hover:text-rose-500">
+                    class="font-medium text-teal-600 hover:text-teal-500">
                     View all products
                     <span aria-hidden="true"> &rarr;</span>
                   </a>
@@ -226,14 +226,14 @@
             </div>
             <div class="mt-6">
               <a
-                href="#"
-                class="flex w-full items-center justify-center rounded-md border border-transparent bg-rose-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-rose-700"
+                href="/dashboard"
+                class="flex w-full items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700"
                 >Sign up</a
               >
               <p class="mt-6 text-center text-base font-medium text-gray-500">
                 Existing customer?
                 {{ ' ' }}
-                <a href="#" class="text-rose-600 hover:text-rose-500"
+                <a href="/dashboard" class="text-teal-600 hover:text-teal-500"
                   >Sign in</a
                 >
               </p>

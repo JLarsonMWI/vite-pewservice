@@ -9,9 +9,9 @@
           <div>
             <div class="flex items-center justify-start">
               <div class="flex flex-col items-center justify-center">
-                <Logo class="h-20 w-auto text-rose-500" />
+                <Logo class="h-20 w-auto text-teal-500" />
                 <span
-                  class="font-pacifico pt-2 text-3xl font-bold text-rose-500"
+                  class="font-pacifico pt-2 text-3xl font-bold text-teal-500"
                   >Pew Service</span
                 >
               </div>
@@ -20,11 +20,11 @@
               <div>
                 <a href="#" class="inline-flex space-x-4">
                   <span
-                    class="rounded bg-rose-50 px-2.5 py-1 text-sm font-semibold text-rose-500"
+                    class="rounded bg-teal-50 px-2.5 py-1 text-sm font-semibold text-teal-500"
                     >What's new</span
                   >
                   <span
-                    class="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
+                    class="inline-flex items-center space-x-1 text-sm font-medium text-teal-500">
                     <span>Just shipped version 0.1.0</span>
                     <ChevronRightIcon class="h-5 w-5" aria-hidden="true" />
                   </span>
@@ -46,13 +46,13 @@
                   <input
                     id="hero-email"
                     type="email"
-                    class="block w-full rounded-md border border-gray-300 px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-rose-500 focus:ring-rose-500"
+                    class="block w-full rounded-md border border-gray-300 px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                     placeholder="Enter your email" />
                 </div>
                 <div class="mt-4 sm:mt-0 sm:ml-3">
                   <button
                     type="submit"
-                    class="block w-full rounded-md border border-transparent bg-rose-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10">
+                    class="block w-full rounded-md border border-transparent bg-teal-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 sm:px-10">
                     Notify me
                   </button>
                 </div>
@@ -80,7 +80,7 @@
                     class="min-w-0 flex-1 py-1 pl-5 text-sm text-gray-500 sm:py-3">
                     <span class="font-medium text-gray-900">Rated 5 stars</span>
                     by over
-                    <span class="font-medium text-rose-500"
+                    <span class="font-medium text-teal-500"
                       >500 beta users</span
                     >
                   </div>
@@ -129,7 +129,7 @@
               class="relative -mr-40 pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
               <img
                 class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/task-app-rose.jpg"
+                src="/dashboard-demo.png"
                 alt="" />
             </div>
           </div>
@@ -184,9 +184,9 @@
                   class="absolute inset-0 h-full w-full object-cover"
                   src="https://images.unsplash.com/photo-1519491050282-cf00c82424b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                   alt="" />
-                <div class="absolute inset-0 bg-rose-500 mix-blend-multiply" />
+                <div class="absolute inset-0 bg-teal-500 mix-blend-multiply" />
                 <div
-                  class="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-75" />
+                  class="absolute inset-0 bg-gradient-to-t from-teal-600 via-teal-600 opacity-75" />
                 <div class="relative px-8">
                   <div class="flex flex-row items-end">
                     <Logo class="h-16 text-white" />
@@ -198,7 +198,7 @@
                     <div
                       class="relative text-lg font-medium text-white md:flex-grow">
                       <svg
-                        class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-rose-400"
+                        class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-teal-400"
                         fill="currentColor"
                         viewBox="0 0 32 32"
                         aria-hidden="true">
@@ -213,7 +213,7 @@
                     </div>
 
                     <footer class="mt-4">
-                      <p class="text-base font-semibold text-rose-200">
+                      <p class="text-base font-semibold text-teal-200">
                         Sarah Williams, CEO at Workcation
                       </p>
                     </footer>
@@ -273,7 +273,7 @@
                 </div>
               </dl>
               <div class="mt-10">
-                <a href="#" class="text-base font-medium text-rose-500"
+                <a href="#" class="text-base font-medium text-teal-500"
                   >Learn more about how we're changing the world &nbsp;
                   &rarr;</a
                 >
@@ -301,7 +301,7 @@
                 senectus vitae.
               </p>
               <div class="mt-6">
-                <a href="#" class="text-base font-medium text-rose-500"
+                <a href="#" class="text-base font-medium text-teal-500"
                   >Meet our investors and advisors &nbsp; &rarr;</a
                 >
               </div>
@@ -356,7 +356,7 @@
         <div
           class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
           <div
-            class="relative overflow-hidden rounded-2xl bg-rose-500 px-6 py-10 shadow-xl sm:px-12 sm:py-20">
+            class="relative overflow-hidden rounded-2xl bg-teal-500 px-6 py-10 shadow-xl sm:px-12 sm:py-20">
             <div
               aria-hidden="true"
               class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
@@ -367,11 +367,11 @@
                 fill="none"
                 viewBox="0 0 1463 360">
                 <path
-                  class="text-rose-400 text-opacity-40"
+                  class="text-teal-400 text-opacity-40"
                   fill="currentColor"
                   d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
                 <path
-                  class="text-rose-600 text-opacity-40"
+                  class="text-teal-600 text-opacity-40"
                   fill="currentColor"
                   d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
               </svg>
@@ -382,7 +382,7 @@
                   class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                   Get notified when we&rsquo;re launching.
                 </h2>
-                <p class="mx-auto mt-6 max-w-2xl text-lg text-rose-100">
+                <p class="mx-auto mt-6 max-w-2xl text-lg text-teal-100">
                   Sagittis scelerisque nulla cursus in enim consectetur quam.
                   Dictum urna sed consectetur neque tristique pellentesque.
                 </p>
@@ -393,13 +393,13 @@
                   <input
                     id="cta-email"
                     type="email"
-                    class="block w-full rounded-md border border-transparent px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-500"
+                    class="block w-full rounded-md border border-transparent px-5 py-3 text-base text-teal-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-teal-500"
                     placeholder="Enter your email" />
                 </div>
                 <div class="mt-4 sm:mt-0 sm:ml-3">
                   <button
                     type="submit"
-                    class="block w-full rounded-md border border-transparent bg-gray-900 px-5 py-3 text-base font-medium text-white shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-500 sm:px-10">
+                    class="block w-full rounded-md border border-transparent bg-teal-900 px-5 py-3 text-base font-medium text-white shadow hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-teal-500 sm:px-10">
                     Notify me
                   </button>
                 </div>
