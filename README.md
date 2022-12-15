@@ -25,3 +25,9 @@ PewService is an all-inclusive resource for helping congregations manage their m
 - [ ] Determine details for each detailed view for activities, congregation, and members.
 - [ ] Create a database to store member and activity information, along with attendance
 
+### Future Features
+- [ ] Create a bulletin creation export system (export printable templates for bulletin creation)
+- [ ] Create a system for bulk email (use default mail client to begin)
+- [ ] Create a social media share button for activities (figure out URL structure for activities)
+- [ ] Employ a congregation for beta testing (more than 1?), gather feedback and make changes
+- [ ] Build out subscription system and public sign-up system
